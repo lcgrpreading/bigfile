@@ -1,0 +1,9 @@
+#!/bin/sh
+
+hexo g
+
+hexo d
+git config --global user.name "lcgrpreading"
+git config --global user.email "lcgrp_reading@163.com"
+git remote add origin https://github.com/lcgrpreading/bigfile.git
+git push -u origin master
